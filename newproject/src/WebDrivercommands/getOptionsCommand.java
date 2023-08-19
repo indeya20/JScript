@@ -37,6 +37,8 @@ public class getOptionsCommand {
 		}
 
 		Thread.sleep(2000);
+		
+		System.out.println();
 
 		WebElement mutiselectionlist = driver.findElement(By.id("multiselect1"));
 
